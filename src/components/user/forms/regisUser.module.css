@@ -1,0 +1,142 @@
+
+.nav{
+
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 
+}
+
+.navb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.buttonNav{
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 4rem;
+    margin-top: 8rem;
+}
+.form{
+    margin-top: 2rem;
+    top: 30px;
+
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+ 
+    text-align: center;
+  
+}
+
+.titleNav{
+  color: azure;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-family: 'Syne', sans-serif;
+  
+}
+.titleNav:hover{
+   
+  color: azure;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Syne', sans-serif;
+}
+/* Estilos para la barra de progreso */
+.progressBar {
+    width: 25%;
+    height: 5px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .progressFill {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .progressWeak {
+    background-color: #ff5252;
+  }
+  
+  .progressMedium {
+    background-color: #ffc107;
+  }
+  
+  .progressStrong {
+    background-color: #4caf50;
+  }
+  .passwordError {
+    border-color: red !important;
+  }
+  
+  .passwordMatchError {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .passwordStrength {
+    margin-top: 10px;
+  }
+  
+  .strengthIndicator {
+    width: 100%;
+    height: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .weak {
+    background-color: #ff4d4d;
+  }
+  
+  .medium {
+    background-color: #ffad4d;
+  }
+  
+  .strong {
+    background-color: #4dff4d;
+  }
+  
+  .strengthLabel {
+    font-size: 14px;
+    font-weight:900;
+  }
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .logo{
+    width: 2.5rem;
+}

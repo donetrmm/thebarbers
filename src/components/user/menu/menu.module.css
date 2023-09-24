@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+  
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   width: 18rem;
+   padding: 4rem;
+   margin: 1rem;
+  
+}
+.card:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin: 1rem;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    scale: 1.1;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: black;
+   
+}
+.icon:hover{
+    scale: 1.2;
+}
+.iconNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    width: 3rem;
+    height: 2.5rem;
+}
+.button{
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+    .buttonNav{
+        margin-left: .2rem;
+        margin-right: .2rem;
+       
+        width: 5rem;
+        height: 3.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Syne', sans-serif;
+
+    }
+    .nav{
+    
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+.btnNav{
+    text-align: center;
+    
+}
+
+.titleNav{
+    color: azure;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    
+}
+.titleNav:hover{
+  
+    color: azure;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+}
+
+.modal{
+  width: 30rem;
+
+}
+.bodyCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem;
+    width: 16rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.bodyT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.btn{
+    margin: 1rem;
+    width: 6rem;
+   
+    text-align: center;
+    
+}
+
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    
+}
+.CardTit{
+    font-family: 'Syne', sans-serif;
+}
+h6,p{
+    color: azure;
+}
+.userNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.titNav{
+    font-size: 1rem;
+    text-align: center;
+}
+.logo{
+    width: 2.5rem;
+}

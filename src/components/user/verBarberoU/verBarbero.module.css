@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+*{
+  font-family: 'Syne', sans-serif;
+}
+.navb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.buttonNav{
+ 
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ 
+
+}
+.nav{
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.titleNav{
+  color: azure;
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: 'Syne', sans-serif;
+  
+}
+.titleNav:hover{
+  
+  color: azure;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Syne', sans-serif;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem;   
+}
+.bodyF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    padding: .5rem;   
+}
+.container{
+  border: .4px solid;
+  margin-top: 12rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rowV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+    padding: 20px;
+
+}
+.rowH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    padding: 20px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.input{
+    
+    height: 50px;
+}
+
+.cardServi{
+
+    width: 10rem;
+
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.div{
+    
+    padding: 1rem;
+    margin: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+  
+  label {
+    cursor: pointer;
+  }
+  
+  svg {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.15rem;
+  }
+  
+  
+  /* hide radio buttons */
+  
+  input[name="star"] {
+    display: inline-block;
+    width: 0;
+    opacity: 0;
+    margin-left: -2px;
+  }
+  
+  /* hide source svg */
+  
+  .starsource {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  
+  
+  /* set initial color to transparent so fill is empty*/
+  
+  .star {
+    color: transparent;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  
+  /* set direction to row-reverse so 5th star is at the end and ~ can be used to fill all sibling stars that precede last starred element*/
+  
+  .starcontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  
+  label:hover ~ label .star,
+  svg.star:hover,
+  input[name="star"]:focus ~ label .star,
+  input[name="star"]:checked ~ label .star {
+    color: #f1ae2b;
+  }
+  
+  input[name="star"]:checked + label .star {
+    animation: starred 0.5s;
+  }
+  
+  input[name="star"]:checked + label {
+    animation: scaleup 1s;
+  }
+  
+  @keyframes scaleup {
+    from {
+      transform: scale(1.2);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes starred {
+    from {
+      color: #ffffff;
+    }
+    to {
+      color: #f1ae2b;
+    }
+  }
+
+  .cardBarbero{
+    width: 18rem;
+    margin: 2rem;
+}
+.cardBarbero:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: .5px solid;
+    border-radius: 1rem;
+    /*
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    */
+}
+.btn{
+  margin: 1rem;
+  width: 8rem;
+ 
+  text-align: center;
+  
+}
+
+.btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: center;
+  
+}
+.textCali{
+  color: darkslategray;
+}
+h6{
+  color: azure;
+}
+.iconNav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: yellow;
+  width: 3rem;
+  height: 2.5rem;
+}
+.userNav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.titNav{
+  font-size: 1rem;
+  text-align: center;
+}
+p{
+  color: black;
+}
+.bodyC{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.btnC{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.logo{
+  width: 2.5rem;
+}

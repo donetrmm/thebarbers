@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 1rem;
+
+}
+.form{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+   
+    width: 22rem;
+}
+
+.btn{
+    margin: .5rem;
+    width: 8rem;
+   
+    text-align: center;
+    
+}
+
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    
+}
+.navit{
+    font-size: 30px;
+}
+.titleNav{
+    color: azure;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    
+}
+.titleNav:hover{
+
+    color: azure;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+}
+.buttonNav{
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+
+}
+.nav{
+    height: 6rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+.tit{
+    font-size: 3rem;
+}
+.bodyBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.logo{
+    width: 2.5rem;
+}

@@ -1,0 +1,72 @@
+
+.navb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+    padding: 15px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icon{
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+}
+.button{
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.buttonNav{
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+
+}
+.nav{
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 5em;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.titleNav{
+    color: azure;
+    font-size: 2rem;
+    text-decoration: none;
+    
+}
+.titleNav:hover{
+
+    color: azure;
+    cursor: pointer;
+    text-decoration: none;
+}
